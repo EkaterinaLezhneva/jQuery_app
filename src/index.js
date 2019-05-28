@@ -3,7 +3,7 @@ $(document).ready(function() {
 
         var empty = false;
         $('#todo-input').each(function() {
-            if ($(this).val().length = 0) {
+            if ($(this).val().length = 0) {//= это присваивание в js, если ты хочешь сравнить, то лучше === или ==
                 empty = true;
             }
         });
